@@ -1,0 +1,348 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <title>Mehedi Hassan</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col4 logo">
+                    <h1 class="brand">
+                        <a href=""> <span class="cheesyLine">Mehedi Hassan</span></a>
+                    </h1>
+                </div>
+                <div class="col8">
+                    <div class="menu-toggle">
+                        <i class="fa fa-minus"></i>
+                        <i class="fa fa-minus"></i>
+                        <i class="fa fa-minus"></i>
+                    </div>
+                    <nav class="menu" id="primary-menu">
+                        <ul class="menu-nav">
+                            <li class="menu-nav-item"><a href="#about">About</a></li>
+                            <li class="menu-nav-item"><a href="#skills">Skills</a></li>
+                            <li class="menu-nav-item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="menu-nav-item"><a href="#Aboutme">About Me</a></li>
+                            <li class="menu-nav-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <img class="img-rounded" id="avatar" src="images/neil.jpg" alt="My Picture">
+                </div>
+                <div class="col6">
+                    <header class="section-header">
+                        <h1 class="section-title site-title text-left">Bonjour</h1>
+                        <p class="lead">Greetings ye weary traveler, welcome to my portfolio!</p>
+                        <p class="lead">I am <span class="cheesyLine">Mehedi Hassan</span>, a developer with a drive to
+                            design beautiful & functional user experiences, because if I don't my OCD doesn't let me
+                            sleep.</p>
+                        <p class="lead">Anyways, since you're here I'm guessing you're interesting in my work. Have a
+                            look around & if you want to get in touch, <a href="#contact" class="cheesyLine transitiontocontact">shoot me a
+                                mail!</a></p>
+                        <a class="btn btn-primary" href="asset/Mehedi's CV.pdf">Download CV</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="portfolio">
+        <div class="container portfolioContainer">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">My Portfolio</h1>
+                        <p class="lead text-center">Here's some of the cool things I've built</p>
+                    </header>
+                </div>
+            </div>
+            <div class="row portfolio portup">
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#001" href="">
+                        <img src="images/portfolio/001-small.jpg" alt="001" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="001">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/001.jpg" alt="001">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">QuidTrails</h3>
+                                <div class="lead project-description">
+                                    <p>Expense Tracker Mobile Application.</p>
+                                    <p>Built with <span class="cheesyLine">flutter, Dart & firebase</span></p>
+                                    <p>A simpler way to track your day to day expenses, simply log in and start tracking.</p>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/quidtrails">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#002" href="">
+                        <img src="images/portfolio/002-small.jpg" alt="002" class="portfolioimg">
+                        
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="002">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/002.jpg" alt="002">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Dicero</h3>
+                                <div class="lead project-description">
+                                    <p>Board Game Roller Mobile App.</p>
+                                    <p>Built with <span class="cheesyLine">flutter & Dart</span></p>
+                                    <p>Tap on the dices and start playing.</p>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/dicero">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#003" href="">
+                        <img src="images/portfolio/003-small.jpg" alt="003" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="003">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/003.jpg" alt="003">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">TakTicToe</h3>
+                                <div class="lead project-description">
+                                    <p>Tic Tac Toe Mobile Game.</p>
+                                    <p>Built with <span class="cheesyLine">flutter & Dart</span></p>
+                                    <p>Find a friend and have fun!</p>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/TakTicToe">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#004" href="">
+                        <img src="images/portfolio/004-small.jpg" alt="004" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="004">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/004.jpg" alt="004">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Abacus</h3>
+                                <div class="lead project-description">
+                                    <p>IOS Like Calculator.</p>
+                                    <p>Built with <span class="cheesyLine">flutter & Dart</span></p>
+                                    <p>Why use the default one? might spy on you.</p>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/abacus">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row portfolio">
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#005" href="">
+                        <img src="images/portfolio/005-small.jpg" alt="005" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="005">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/005.jpg" alt="005">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Weatheru</h3>
+                                <div class="lead project-description">
+                                    <p>Weather Tracking Web App.</p>
+                                    <p>Built with <span class="cheesyLine">VueJs & Openweathermap API</span></p>
+                                    <p>Make sure to check up before heading out.</p>
+                                    <a class="btn btn-primary" href="https://neiloysdir.github.io/weatheru/">Visit Site</a>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/weatheru">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#006" href="">
+                        <img src="images/portfolio/006-small.jpg" alt="006" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="006">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/006.jpg" alt="006">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Snek</h3>
+                                <div class="lead project-description">
+                                    <p>Remake of the Classic Snake Game.</p>
+                                    <p>Built with <span class="cheesyLine">HTML, CSS & JS</span></p>
+                                    <p>Got some time to kill? Start playing.</p>
+                                    <a class="btn btn-primary" href="https://neiloysdir.github.io/snek">Visit Site</a>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/snek">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#007" href="">
+                        <img src="images/portfolio/007-small.jpg" alt="007" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="007">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/007.jpg" alt="007">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Tipper</h3>
+                                <div class="lead project-description">
+                                    <p>Tips and Splits Bill Calculator Web App.</p>
+                                    <p>Built with <span class="cheesyLine">HTML, CSS & JS</span></p>
+                                    <p>Don't know how to split the bill? I got you covered.</p>
+                                    <a class="btn btn-primary" href="https://neiloysdir.github.io/tipper">Visit Site</a>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/tipper">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#008" href="">
+                        <img src="images/portfolio/008-small.jpg" alt="008" class="portfolioimg">
+
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="008">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/008.jpg" alt="008">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">TacToe</h3>
+                                <div class="lead project-description">
+                                    <p>Tic Tac Toe Web App.</p>
+                                    <p>Built with <span class="cheesyLine">HTML, CSS & JS</span></p>
+                                    <p>Got some time to kill? Start playing.</p>
+                                    <a class="btn btn-primary" href="https://neiloysdir.github.io/tactoe">Visit Site</a>
+                                    <a class="btn btn-primary" href="https://github.com/neiloysdir/tactoe">View Code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">My Skills</h1>
+                        <p class="lead text-center">This is what I can do for you in a broad scope, if you need to get
+                            into specifics, <a href="asset/Mehedi's CV.pdf" class="cheesyLine">download</a> my CV. </p>
+                    </header>
+                </div>
+            </div>
+            <div class="row features-list">
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-user feature-icon"></i>
+                    <h3 class="feature-title">Communicate</h3>
+                    <p class="feature-description">While this may sound rudementary, nothing gets built without the
+                        proper groundwork, I can get the specifics of your vision/idea using industry-led methods like
+                        <span class="cheesyLine">moodboarding, ideating, brainstorming,</span> so that what I build for
+                        you is exactly what you need.</p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-pencil-ruler feature-icon"></i>
+                    <h3 class="feature-title">Design</h3>
+                    <p class="feature-description">Great technology with poor design is a recepie for disaster. I've
+                        tons of design experience under my belt, and I specialize in building beautiful & functional
+                        user experiences. Don't believe me? <a href="http://behance.net/neiloyhassan"
+                            class="cheesyLine">Checkout</a> some of my work!</p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fas fa-window-restore feature-icon"></i>
+                    <h3 class="feature-title">Develop</h3>
+                    <p class="feature-description">And of course, I can actually build it! I know frameworks like <span
+                            class="cheesyLine">TailWind, BootStrap, VueJs, Flutter</span>, I can code in <span
+                            class="cheesyLine">Dart, Python, Javascript.</span> So rest assured, If you can think it, I
+                        can build it!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <header class="section-header">
+                        <h1 class="section-title text-left">Get In Touch</h1>
+                        <p class="lead cheekyText">Ah, hello! I see you've found the magical button that lets you
+                            communicate with me, If you're here it means one of three things, either you've mistakenly
+                            clicked the thingmajig that brings you here, in which case go back up, there's a lot for you
+                            to explore, maybe you've run out of scrollable real estate. Or, you like something you saw
+                            and want to get in touch with me, in which case, great! just shoot me a mail!</p>
+                    </header>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-map-marker"></i>Mohammodpur, Dhaka</li>
+                        <li class="list-inline-item"><i class="fa fa-phone"></i>+8801941231855</li>
+                        <li class="list-inline-item"><i class="fa fa-envelope"></i>mehdi.ops13@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col6">
+                    <form action="process.php" method="post" class="dark contact-form">
+                        <h3 class="form-title">Contact Me</h3>
+                        <div class="form-field">
+                            <input class="text" type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="form-field">
+                            <input class="text email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-field">
+                            <textarea class="textarea" name="message" placeholder="Write" required></textarea>
+                        </div>
+                        <div class="form-field" style="display: none;">
+                            <input type="hidden" name="url" placeholder="URL">
+                        </div>
+                        <input class="btn btn-submit" type="submit" value="Shoot Me a Mail!">
+                        <div id="status-messages"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
